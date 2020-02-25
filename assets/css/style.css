@@ -1,0 +1,130 @@
+/* =============================================== */
+/* BASIC SET UP*/
+/* =============================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =============================================== */
+/* REUSABLE COMPONENTS */
+/* =============================================== */
+
+/* .grid-container {
+    grid-template-columns: auto auto auto auto;
+} */
+
+/* =============================================== */
+/* HEDINGS */
+/* =============================================== */
+
+h1,
+h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+/* =============================================== */
+/* HEADER */
+/* =============================================== */
+header {
+    background-image: linear-gradient(rgba(0 , 0 , 0 , 0.5),rgba(0 , 0, 0 , 0.5)) ,url('https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title-box {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.header-title-box h1 {
+    color: #A87738;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(192 , 154 , 127 , 0.2);
+}
+
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    display: inline;
+    margin-left: 30px;
+    text-transform: uppercase;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #F5CE9A;
+    padding: 10px;
+    transition: color 0.3s, border 0.3s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #755327;
+    border: 2px solid #F5CE9A;
+    border-radius: 20px;
+}
+
+.logo {
+    margin: 20px 30px;
+    font-size: 300%;
+}
+
+.nav-con a:link,
+.nav-con a:visited {
+    color: #F5CE9A;
+    transition: color 0.3s;
+}
+
+.nav-con a:hover,
+.nav-con a:active {
+    color: #755327;
+}
+
+.nav-con {
+    margin-right: 40px;
+}
+
+.active-btn:link,
+.active-btn:visited {
+    color: #F5CE9A;
+    padding: 5px;
+    font-size: 110%;
+    border: 1px solid #755327;
+    border-radius: 20px;
+    background-color: #755327;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.active-btn:hover,
+.active-btn:visited {
+    color: #755327;
+    background-color: #F5CE9A;
+} 
+
