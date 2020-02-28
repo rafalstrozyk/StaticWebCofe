@@ -27,6 +27,15 @@ a {
     grid-template-columns: auto auto auto auto;
 } */
 
+section {
+    
+    /* margin: auto 5%;  */
+}
+
+.rowin {
+    margin: auto 5%;
+}
+
 /* =============================================== */
 /* HEDINGS */
 /* =============================================== */
@@ -45,7 +54,7 @@ h1 {
 /* HEADER */
 /* =============================================== */
 header {
-    background-image: linear-gradient(rgba(0 , 0 , 0 , 0.5),rgba(0 , 0, 0 , 0.5)) ,url('https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-image: linear-gradient(rgba(0 , 0 , 0 , 0.2),rgba(0 , 0, 0 , 0.2)) ,url('https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -58,10 +67,10 @@ header {
 }
 
 .header-title-box h1 {
-    color: #A87738;
+    color: #67C2B1;
     font-weight: 700;
     margin-bottom: 15px;
-    text-shadow: 2px 2px 4px rgba(192 , 154 , 127 , 0.2);
+    text-shadow: 2px 2px 4px rgba(192 , 154 , 127 , 0.4);
 }
 
 .main-nav {
@@ -113,18 +122,70 @@ header {
 
 .active-btn:link,
 .active-btn:visited {
-    color: #F5CE9A;
-    padding: 5px;
+    color: #A1FFEE;
+    padding: 10px;
+    text-align: center;
     font-size: 110%;
-    border: 1px solid #755327;
+    border: 1px solid #327569;
     border-radius: 20px;
-    background-color: #755327;
+    background-color: #327569;
     transition: color 0.3s, background-color 0.3s;
 }
 
 .active-btn:hover,
 .active-btn:visited {
-    color: #755327;
-    background-color: #F5CE9A;
+    color: #327569;
+    background-color: #A1FFEE;
 } 
 
+/* =============================================== */
+/* Section 1 */
+/* =============================================== */
+
+.opinion-section {
+    background-color: #D9F3F6;
+    padding: 40px 0px;
+}
+
+.my-content {
+    background-color: #F5CE9A;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* =============================================== */
+/* Section 2 */
+/* =============================================== */
+.card-gift-header {
+    background-image: url(https://images.pexels.com/photos/678654/pexels-photo-678654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 230px;
+    /*width: 120vw; */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-gift-header ul {
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /* width: 50%;
+    padding: 5.5% 0; */
+}
+
+.card-gift-header ul li {
+    display: inline;
+    margin:  20px 30px;
+    
+}
+.card-gift-header ul li a {
+    padding: 20px;
+    font-size: 140%;
+    background-color: #A87738;
+
+}
