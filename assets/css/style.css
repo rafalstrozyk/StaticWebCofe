@@ -153,7 +153,7 @@ header {
 }
 
 .active-btn:hover,
-.active-btn:visited {
+.active-btn:active {
     color: #327569;
     background-color: #A1FFEE;
 } 
@@ -315,22 +315,55 @@ header {
 /* SECTION 3 */
 /* =============================================== */
 
+.coffe-specjals-section {
+    background-color: #F5CE9A;
+}
+
+.coffe-specjals-section h2 {
+    margin-top: 40px;
+    color: #327569;
+}
+
 .coffe-specjals-section .container {
     justify-content: center;
     align-items: flex-start;
+    align-content: space-around;
+}
+
+.coffe-specjals-desc-first {
+    flex: 1 1 20%;
+    margin: 0px 5px;
 }
 
 .coffe-specjals-desc {
-    flex: 0 1 28%;
-    margin: 30px 5px;
+    flex: 1 1 25%;
+    margin: 25px 5px;
 }
 
-.coffe-specjals-inf {
-    flex: 1 1 46%;
-    
-} 
+.coffe-specjals-desc ul {
+    margin-top: 50px;
+}
+
+.coffe-specjals-desc ul  li{
+    margin-top: 25px;
+}
 
 .coffe-specjals-desc img {
     width: 100%;
     display: block;
 }
+
+.coffe-specjals-inf {
+   margin-top: 50px;
+}
+
+.slide-section {
+    max-height: 600px;
+}
+.slide-section img {
+    width: 100%;
+    display: block;
+    height: 600px;
+}
+
+.mySlides { display: none;}
