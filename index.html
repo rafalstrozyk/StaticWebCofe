@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/lib/bulma.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/queires.css">
+
     <title>PowerCafe</title>
 </head>
 <body>
-    <header class="is-clearfix">
+    <header class="">
         <nav>
            <div class="nav-con">
                <a href="#"><ion-icon class="logo" name="cafe"></ion-icon></a>
@@ -25,44 +27,56 @@
             <h1>Here you will get energy <br> for the whole day</h1>
             <a href="#" class="active-btn">View our menu</a>
         </div>
+        <div class="arrow-down">
+            <ion-icon name="arrow-down-outline"></ion-icon>
+        </div>
     </header>
 
-    <section class="opinion-section">
+    <section class="desc-section">
         <div class="container">
-            <div class="columns">
-                <div class="column is-4">
-                    <div>
-                        <img src="https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                    </div>
-                    <div class="my-content">
-                        <p>Take time to slow down and connect with those most important to you</p>
-                    </div>
+            <div class="desc__content">
+                <img class="desc-section-img" src="https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="my-content">
+                    <p>Take time to slow down and connect with those most important to you</p>
                 </div>
-                <div class="column is-4">
-                    <div>
-                        <img src="https://images.pexels.com/photos/723031/pexels-photo-723031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-                    </div>
-                    <div class="my-content">
-                        <p>Experience made-to-order dishes created just for you by our quality chefs</p>
-                    </div>
+            </div>
+            <div class="desc__content">
+                <img class="desc-section-img" src="https://images.pexels.com/photos/723031/pexels-photo-723031.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="my-content">
+                    <p>Experience made-to-order dishes created just for you by our quality chefs</p>
                 </div>
-                <div class="column is-4">
-                    <div>
-                        <img src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                    </div>
-                    <div class="my-content">
-                        <p>Don't let our name fool you. You'll find more to drink craft coffee and beer</p>
-                    </div>
+            </div>
+            <div class="desc__content">
+                <img class="desc-section-img" src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="my-content">
+                    <p>Don't let our name fool you. You'll find more to drink craft coffee and beer</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="card-gift-section">
         <div class="card-gift-header">
-            <ul class="">
-                <li><a href="#">Reservation & Events</a></li>
-                <li><a href="#">Purchase a Gift Card</a></li>
+            <ul class="container">
+                <li class="card-gift__lia"><a class="card-gift-header__button" href="#">Reservation & Events</a></li>
+                <li class="card-gift__lia"><a class="card-gift-header__button" href="#">Purchase a Gift Card</a></li>
             </ul>
+        </div>
+        <div class="card-gift-desc">
+            <figure class="container">
+                <div class="card-gift-desc__flex-item">
+                    <img  class="card-gift-desc__img" src="https://images.pexels.com/photos/1569076/pexels-photo-1569076.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </div>
+                <div class="card-gift-desc__flex-item">
+                    <h3>The Locals’ Living Room</h3>
+                    <p>Life is busy, and it can be challenging to maintain connections with
+                        the people that are most important. Why not slow down,
+                        enjoy a great meal and reconnect in an atmosphere that
+                        feels like an extension of home?
+                    </p>
+                    <a class="card-gift-desc__link" href="#">Purchase a Gift Card</a>
+                </div>
+                
+            </figure>
         </div>
     </section>
 </body>

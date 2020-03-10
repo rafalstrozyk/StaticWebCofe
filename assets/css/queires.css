@@ -1,0 +1,59 @@
+/* Big tablet to 1200px (widths smaller that the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    
+}
+
+/* Small tablet to big tablet: grom 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    .main-nav li { margin-left: 5px; }
+
+    .main-nav li a:link,
+    .main-nav li a:visited { padding: 2px; }
+
+    .desc__content {
+        flex: 0 0 auto;
+        margin: 0px;
+    }
+    .card-gift-desc__flex-item {
+        flex: 0 0 auto;
+        margin: 0px;
+    }
+    .card-gift-desc__flex-item img { max-width: 700px; }
+    .card-gift-desc__flex-item { max-width: 700px; }
+    
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .main-nav { display: none; }
+
+    .desc__content {
+        width: 100%;
+        /* height: 50%; */
+    }
+    .card-gift-desc__flex-item img { max-width: 400px; }
+    .card-gift-desc__flex-item { max-width: 400px; }
+
+}
+
+/* Small phones: from 351 to 480px */
+@media only screen and (max-width: 480px) {
+    body { font-size: 16px; }
+    h1 { font-size: 230%; }
+    .card-gift-desc__flex-item img { max-width: 350px; }
+    .card-gift-desc__flex-item { max-width: 350px; }
+    .card-gift-header__button:link,
+    .card-gift-header__button:visited {
+        padding: 15px 80px;
+    }
+}
+
+@media only screen and (max-width: 350px) { 
+    .card-gift-desc__flex-item { max-width: 300px; }
+    .card-gift-desc__flex-item img { max-width: 300px; }
+    .card-gift-header__button:link,
+    .card-gift-header__button:visited {
+        padding: 15px 50px;
+    }
+}
