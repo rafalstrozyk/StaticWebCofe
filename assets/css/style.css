@@ -248,7 +248,7 @@ header {
 }
 
 .card-gift-header__button:hover,
-.card-gift-header__button:visited {
+.card-gift-header__button:active {
     background-color: #755327;
     color: #F5CE9A; 
     letter-spacing: 2px;
@@ -288,15 +288,49 @@ header {
     box-shadow: 0 15px 30px 10px rgba(0, 0, 0, 0.3);
 }
 
-.card-gift-desc__img img {
+.card-gift-desc__flex-item img {
     width: 100%;
     display: block;
 }
 
-.card-gift-desc__link {
+.card-gift-desc__link:link,
+.card-gift-desc__link:visited {
     color: #F5CE9A;
     position: relative;
     padding: 15px;
     left: 25%;
     background-color: #327569;
+    transition: background-color 0.4s, color 0.4s;
+    box-shadow: 0 15px 50px 10px rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+}
+
+.card-gift-desc__link:active,
+.card-gift-desc__link:hover {
+    color: #327569;
+    background-color: #F5CE9A;  
+}
+
+/* =============================================== */
+/* SECTION 3 */
+/* =============================================== */
+
+.coffe-specjals-section .container {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.coffe-specjals-desc {
+    flex: 0 1 28%;
+    margin: 30px 5px;
+}
+
+.coffe-specjals-inf {
+    flex: 1 1 46%;
+    
+} 
+
+.coffe-specjals-desc img {
+    width: 100%;
+    display: block;
 }

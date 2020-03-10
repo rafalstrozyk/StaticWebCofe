@@ -41,6 +41,7 @@
 @media only screen and (max-width: 480px) {
     body { font-size: 16px; }
     h1 { font-size: 230%; }
+    .header-title-box { top: 15%; }
     .card-gift-desc__flex-item img { max-width: 350px; }
     .card-gift-desc__flex-item { max-width: 350px; }
     .card-gift-header__button:link,
