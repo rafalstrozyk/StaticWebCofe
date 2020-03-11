@@ -31,7 +31,10 @@ a {
     text-decoration: none;
 }
 
-p { font-size: 100%;}
+p { 
+    font-size: 100%;
+    line-height: 1.3;
+}
 
 /* =============================================== */
 /* REUSABLE COMPONENTS */
@@ -67,6 +70,7 @@ h1 {
 h2 { font-size: 250%; }
 
 h3 { font-size: 220%;}
+h5 { font-size: 160%; }
 
 /* =============================================== */
 /* HEADER */
@@ -316,18 +320,29 @@ header {
 /* =============================================== */
 
 .coffe-specjals-section {
-    background-color: #F5CE9A;
+    background-color: #f2f2f2;
 }
 
 .coffe-specjals-section h2 {
     margin-top: 40px;
     color: #327569;
+    margin: 30px;
+    flex: auto;
+    padding-left: 5px;
+    border-left: 8px solid #67C2B1;
+    border-start-end-radius: 100px;
 }
 
 .coffe-specjals-section .container {
     justify-content: center;
     align-items: flex-start;
     align-content: space-around;
+}
+
+.coffe-specjals-desc__title {
+    font-size: 130%;
+    margin-top: 25px;
+    color: #327569;
 }
 
 .coffe-specjals-desc-first {
@@ -337,33 +352,78 @@ header {
 
 .coffe-specjals-desc {
     flex: 1 1 25%;
-    margin: 25px 5px;
+    margin: 0px 5px;
 }
 
 .coffe-specjals-desc ul {
-    margin-top: 50px;
+    margin-top: 20px;
+    list-style: none;
+    margin-bottom: 20px;
 }
 
 .coffe-specjals-desc ul  li{
     margin-top: 25px;
+    color: #67C2B1;
+    font-weight: 700;
+}
+
+.coffe-specjals-desc ul li ion-icon {
+    color: #f7ca18;
+    font-size: 120%;
+    text-align: center;
+    line-height: 120%;
 }
 
 .coffe-specjals-desc img {
     width: 100%;
     display: block;
+    border-radius: 10px;
 }
 
 .coffe-specjals-inf {
-   margin-top: 50px;
+   margin-top: 40px;
+   line-height: 1.5;
+   color: #327569;
+   margin-bottom: 20px;
+   text-align: center;
 }
 
 .slide-section {
-    max-height: 600px;
+    max-height: 800px;
 }
 .slide-section img {
     width: 100%;
     display: block;
     height: 600px;
+    border-radius: 10px;
 }
 
 .mySlides { display: none;}
+
+/* =============================================== */
+/* SECTION 4 */
+/* =============================================== */
+
+.community-section hr {
+    border: 4px solid #67C2B1;
+    border-radius: 5px;
+    display: block;
+}
+
+.community-section h2 {
+    margin-top: 20px;
+    color: #F5CE9A;
+}
+
+.community-person {
+    flex: 1 1 30%;
+    padding: 20px;
+    margin: 80px 5px;
+    text-align: center;
+}
+
+.person {
+    padding: 20px;
+    background-color: #327569;
+    color: #ffffff;
+}

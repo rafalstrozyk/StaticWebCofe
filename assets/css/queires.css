@@ -21,6 +21,15 @@
     }
     .card-gift-desc__flex-item img { max-width: 700px; }
     .card-gift-desc__flex-item { max-width: 700px; }
+
+    .coffe-specjals-desc-first {
+        flex: 1 1 auto;
+    }
+    
+    .coffe-specjals-desc {
+        flex: 1 1 auto;
+    }
+
     
 }
 
@@ -34,13 +43,22 @@
     }
     .card-gift-desc__flex-item img { max-width: 400px; }
     .card-gift-desc__flex-item { max-width: 400px; }
+    .coffe-specjals-desc-first {
+        flex: 1 1 auto;
+        margin: 0;
+    }
+
+    .coffe-specjals-desc img { border-radius: 0; }
+    .slide-section img { border-radius: 0; }
+    .coffe-specjals-inf { margin: 10px; }
+    .coffe-specjals-desc { margin: 10px; }
+    .slide-section { display: none; }
 
 }
 
 /* Small phones: from 351 to 480px */
 @media only screen and (max-width: 480px) {
     body { font-size: 16px; }
-    h1 { font-size: 230%; }
     .header-title-box { top: 15%; }
     .card-gift-desc__flex-item img { max-width: 350px; }
     .card-gift-desc__flex-item { max-width: 350px; }
@@ -48,6 +66,10 @@
     .card-gift-header__button:visited {
         padding: 15px 80px;
     }
+    h1 { font-size: 250%; }
+    h2 { font-size: 220%; }
+    h3 { font-size: 190%; }
+    h4 { font-size: 130%; }
 }
 
 @media only screen and (max-width: 350px) { 
