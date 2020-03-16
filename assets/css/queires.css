@@ -30,6 +30,13 @@
         flex: 1 1 auto;
     }
 
+    .community-person { 
+        flex: 1 1 auto; 
+        margin: 5px 5px;
+    }
+
+    .person { margin-bottom: 70px;}
+
     
 }
 
