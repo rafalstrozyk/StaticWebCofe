@@ -6,22 +6,23 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700,800&display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/queires.css">
 
     <title>PowerCafe</title>
 </head>
 <body>
-    <header class="">
+    <header>
         <nav>
            <div class="nav-con">
-               <a href="#"><ion-icon class="logo" name="cafe"></ion-icon></a>
-               <ul class="main-nav">
-                   <li><a href="#">Our Menu</a></li>
-                   <li><a href="#">Reservation &amp; Events</a></li>
-                   <li><a href="#">Purchase a gift card</a></li>
+               <a href="#" class="logo-link"><ion-icon class="logo" name="cafe"></ion-icon></a>
+               <ul class="main-nav js--main-nav">
+                   <li><a class="menu-a btn-nav" href="#">Our Menu</a></li>
+                   <li><a class="menu-a btn-nav" href="#">Reservation &amp; Events</a></li>
+                   <li><a class="menu-a btn-nav" href="#">Purchase a gift card</a></li>
                </ul>
+               <a class="mobile-nav-icon js--nav-icon"><ion-icon id="menu-bar" name="menu"></ion-icon></a>
            </div> 
         </nav>
         <div class="header-title-box">
@@ -33,22 +34,22 @@
         </div>
     </header>
 
-    <section class="desc-section">
+    <section class="desc-section js--desc-section">
         <div class="container">
-            <div class="desc__content">
-                <img class="desc-section-img" src="https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <div class="desc__content js--wp-1">
+                <img class="desc-section-img" src="/assets/img/desc-1.jpeg" alt="two persons in cafe">
                 <div class="my-content">
                     <p>Take time to slow down and connect with those most important to you</p>
                 </div>
             </div>
-            <div class="desc__content">
-                <img class="desc-section-img" src="https://images.pexels.com/photos/723031/pexels-photo-723031.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <div class="desc__content js--wp-1">
+                <img class="desc-section-img" src="/assets/img/desc-2.jpeg" alt="Woman eat pizza">
                 <div class="my-content">
                     <p>Experience made-to-order dishes created just for you by our quality chefs</p>
                 </div>
             </div>
-            <div class="desc__content">
-                <img class="desc-section-img" src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <div class="desc__content js--wp-1">
+                <img class="desc-section-img" src="/assets/img/desc-3.jpeg" alt="Coffe maker">
                 <div class="my-content">
                     <p>Don't let our name fool you. You'll find more to drink craft coffee and beer</p>
                 </div> 
@@ -65,7 +66,7 @@
         <div class="card-gift-desc">
             <figure class="container">
                 <div class="card-gift-desc__flex-item">
-                    <img  class="card-gift-desc__img" src="https://images.pexels.com/photos/1569076/pexels-photo-1569076.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <img  class="card-gift-desc__img js--wp-2" src="/assets/img/card-gift.jpeg" alt="Two people study on cafe">
                 </div>
                 <div class="card-gift-desc__flex-item">
                     <h3>The Locals’ Living Room</h3>
@@ -87,14 +88,14 @@
         <div class="container">
             <div class="coffe-specjals-desc-first">
                 <div class="slide-section">
-                    <img class="mySlides" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                    <img class="mySlides" src="https://images.pexels.com/photos/2748535/pexels-photo-2748535.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                    <img class="mySlides" src="https://images.pexels.com/photos/3473488/pexels-photo-3473488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <img class="mySlides" src="/assets/img/slide-1.jpeg" alt="Slide 1">
+                    <img class="mySlides" src="/assets/img/slide-2.jpeg" alt="Slide 2">
+                    <img class="mySlides" src="/assets/img/slide-3.jpeg" alt="Slide 3">
                 </div>
             </div>
             <div class="coffe-specjals-desc">
-                <img class="" src="https://images.pexels.com/photos/6659/coffee-cup-mug-cafe.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                <div class="coffe-specjals-inf">
+                <img class="" src="/assets/img/specjal-1.jpg" alt="Hemex caffe">
+                <div class="coffe-specjals-inf js--wp-3">
                     <p>
                         You will find a large selection of the best coffee.
                          Freshly ground just before serving. 
@@ -104,9 +105,9 @@
                 </div>
             </div>
             <div class="coffe-specjals-desc">
-                <img src="https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <img src="/assets/img/specjal-2.jpeg" alt="Caffe Mahine">
                 <div class="coffe-specjals-desc__title">Choose the best one for you!</div>
-                <ul>
+                <ul class="js--wp-3">
                     <li><ion-icon name="flash-outline"></ion-icon> Chemex</li>
                     <li><ion-icon name="flash-outline"></ion-icon> French Press</li>
                     <li><ion-icon name="flash-outline"></ion-icon> Aeropress</li>
@@ -123,7 +124,7 @@
         </div>
 
         <div class="container">
-            <div class="community-person">
+            <div class="community-person js--wp-4">
                 <div class="person">
                     <h5>Thomas F. Mack</h5>
                 </div>
@@ -134,7 +135,7 @@
                     Sausage tongue capicola shoulder chicken corned beef pork venison burgdoggen.
                 </div>
             </div>
-            <div class="community-person">
+            <div class="community-person js--wp-4">
                 <div class="person">
                     <h5>Elizabeth W. Shields</h5>
                 </div>
@@ -145,7 +146,7 @@
                     Sausage tongue capicola shoulder chicken corned beef pork venison burgdoggen.
                 </div>
             </div>
-            <div class="community-person">
+            <div class="community-person js--wp-4">
                 <div class="person">
                     <h5>Benjamin M. Moran</h5>
                 </div>
@@ -192,11 +193,11 @@
                 </p>
             </div>
             <div class="info-btn">
-                <button class="btn-more"><ion-icon name="arrow-down-circle-outline"></ion-icon><span>Learn More</span></button>
+                <button class="btn-more js--wp-3"><ion-icon name="arrow-down-circle-outline"></ion-icon><span>Learn More</span></button>
             </div> 
         </div>
     </section>
-    <section class="section-call">
+    <section class="section-call js--wp-4">
         <div class="container">
             <div>
                 <a href="#"><ion-icon name="call-outline"></ion-icon> Call Us 111 665 9975 30 </a>
@@ -221,15 +222,19 @@
             <div class="social">
                 <h5>Follow us on social media</h5>
                 <ul>
-                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    <li><a class="fb" href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a class="tw" href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a class="in" href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a class="yt" href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
                 </ul>
             </div>
         </div>
-
     </section>
+    <footer>
+        2020 created by Rafał Stróżyk
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
     <script src="assets/js/index.js"></script>
 </body>
 </html>
