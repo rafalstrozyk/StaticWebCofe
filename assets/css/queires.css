@@ -67,6 +67,7 @@
 
     .section-hours {
         padding: 40px;
+        font-size: 90%;
     }
 
     
@@ -115,7 +116,10 @@
     .sticky .mobile-nav-icon {
         margin-top: 10px;
     }
-
+    .hours-open span {
+        margin-left: 0;
+    }
+    .section-call { font-size: 100%;}
     .desc__content {
         width: 100%;
         /* height: 50%; */
