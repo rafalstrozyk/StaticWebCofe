@@ -18,11 +18,11 @@ $(document).ready(() =>{
     $(".btn-more").click(() =>{
       $(".learn-more-content").toggle('250');
       
-      if($('ion-icon').attr('name')==='arrow-up-circle-outline') {
-        $('ion-icon').attr('name', 'arrow-down-circle-outline');
+      if($('.btn-more').children().attr('name')==='arrow-up-circle-outline') {
+        $('.btn-more').children().attr('name', 'arrow-down-circle-outline');
         $('span').text('Learn More');
       } else {
-        $('ion-icon').attr('name', 'arrow-up-circle-outline');
+        $('.btn-more').children().attr('name', 'arrow-up-circle-outline');
         $('span').text('Collapse');
       }
       
